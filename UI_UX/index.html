@@ -4,12 +4,16 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+
     <!-- font awesome link -->  
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" rel="stylesheet">
 
     <!-- custom css file link -->
     <link rel="stylesheet" href="css/style.css">
-    <title>Document</title>
+
+    
+    <title>Website Tarot Card</title>
 </head>
 <body>
     
@@ -19,7 +23,7 @@
         <a href="" class="logo"><i class="fa-solid fa-money-bills"></i>Tarot</i></a>
 
         <nav class="navbar">
-            <a href="#home">home</a>
+            <a href="#home" class="active">home</a>
             <a href="#dishes">dishes</a>
             <a href="#about">about</a>
             <a href="#menu">menu</a>
@@ -27,60 +31,83 @@
             <a href="#order">order</a>
         </nav>
 
+        <!-- <div class="search-box">
+            <input type="text" placeholder="Search...">
+            <i class="fa-solid fa-magnifying-glass" id="search-icon"></i>
+        </div> -->
+
         <div class="icons">
-            <i class="fa-solid fa-wifi"></i>
-            <i class="fa-solid fa-wifi"></i>
-        </div>
+            <i class="fa-solid fa-bars" id="menu-bars"></i> 
+           
+            <a href="#" class="fa-regular fa-heart"></a>
+            <a href="#" class="fa-solid fa-cart-shopping"></a>
+        </div> 
+
     </header>
 
     <!-- header section ends -->
 
+    <!-- home section starts -->
+
+    <section class="home" id="home">
+        <div class="swiper home-slider">
+            <div class="swiper-wrapper wrapper">
+                <div class="swiper-slide slide">
+                    <div class="content">
+                        <span>our your special dish</span>
+                        <h3>Card special</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto laboriosam minima officiis eveniet incidunt consequuntur. Optio nesciunt, iste at velit commodi alias? Nihil, praesentium fuga enim ad non sapiente dolorem.</p>
+                        <a href="#" class="btn">order now</a>
+                    </div>
+                    <div class="image">
+                        <img src="img/image_1.jpg" alt="">
+                    </div>
+                </div>
+                <div class="swiper-slide slide">
+                    <div class="content">
+                        <span>our your special dish</span>
+                        <h3>Card special</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto laboriosam minima officiis eveniet incidunt consequuntur. Optio nesciunt, iste at velit commodi alias? Nihil, praesentium fuga enim ad non sapiente dolorem.</p>
+                        <a href="#" class="btn">order now</a>
+                    </div>
+                    <div class="image">
+                        <img src="img/image_2.jpg" alt="">
+                    </div>
+                </div>
+                <div class="swiper-slide slide">
+                    <div class="content">
+                        <span>our your special dish</span>
+                        <h3>Card special</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto laboriosam minima officiis eveniet incidunt consequuntur. Optio nesciunt, iste at velit commodi alias? Nihil, praesentium fuga enim ad non sapiente dolorem.</p>
+                        <a href="#" class="btn">order now</a>
+                    </div>
+                    <div class="image">
+                        <img src="img/image_3.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-pagination"></div>
+        </div>
+        
+      
+    </section>
+
+
+    <!-- home section ends -->
 
 
 
 
+      <!-- custom js file link -->
 
+    <script src="js/script.js"></script>
 
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<!-- custom js file link -->
-<link rel="stylesheet" href="js/script.js">
-
+     
 </body>
+
+
+
+
 </html>
